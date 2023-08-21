@@ -25,9 +25,34 @@
       path: '/'
     },
     {
+      name: 'About',
+      path: '/about'
+    },
+    {
+      name: 'Contact',
+      path: '/contact'
+    },
+    {
       name: 'Projects',
       path: '/projects'
     }
   ]);
-
 </script>
+
+
+<style scoped>
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 1em;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+</style>

@@ -13,3 +13,13 @@
   import Logo from './Header/Logo.vue'
   import Navigation from './Header/Navigation.vue'
 </script>
+
+<style scoped>
+  header {
+    padding: 1rem 0;
+  }
+
+  .row {
+    align-items: center;
+  }
+</style>
