@@ -25,17 +25,17 @@
           <div class="social-medias">
             <ul>
               <li>
-                <a href="https://www.linkedin.com/in/leo-knudsen-9b1b0a1b9/" target="_blank">
+                <a href="https://www.linkedin.com/in/leo-knudsen-21b6a19a/" target="_blank">
                   <img src="/linkedin.svg" alt="">
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/leo-knudsen-9b1b0a1b9/" target="_blank">
+                <a href="https://www.facebook.com/leo.knudsen.9/" target="_blank">
                   <img src="/facebook-square.svg" alt="">
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/leo-knudsen-9b1b0a1b9/" target="_blank">
+                <a href="https://github.com/lk22" target="_blank">
                   <img src="/github.svg" alt="">
                 </a>
               </li>
@@ -63,7 +63,7 @@
   </div>
   <div class="container projects-section">
     <div class="row">
-      
+
     </div>
   </div>
 </template>
