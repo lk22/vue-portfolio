@@ -37,7 +37,8 @@ a {
 
 p {
   font-size: var(--font-base);
-  color: var(--white)
+  color: var(--white);
+  line-height: 1.75;
 }
 
 h1,
@@ -49,6 +50,7 @@ h6 {
   background: linear-gradient(100deg, #F9F9F9 0%, #969DD8 100%);
   -webkit-background-clip: text;
   background-clip: text;
+  margin-bottom: 1.5rem;
 }
 
 h1 {
@@ -167,8 +169,6 @@ h6 {
 .col-12 {
   padding: 0 0.5rem;
 }
-
-
 
 /* @media (prefers-color-scheme: light) {
   :root {

@@ -1,3 +1,7 @@
+<script setup lang="ts">
+  import { RouterLink } from 'vue-router'
+</script>
+
 <template>
   <div class="container">
     <div class="row">
@@ -41,10 +45,30 @@
       </div>
     </div>
   </div>
+  <div class="container about-section">
+    <div class="row">
+      <div class="col-8">
+        <div class="about-me">
+          <h2>About me</h2>
+          <p>
+            Im a 30 year old passionated gamer and Web Developer with around 10 years of experience
+            Im currently working a full time possition in a Danish Digital Agency “Webto ApS” as a frontend developer, where i work with both small, medium, large scaled websites and applications, besides that im owner of Knudsen Design & Udvikling where i work part time as owner and developer.
+
+            Im also contributing to Danish Association Life where my development skillsets are put to need
+            You can read more about me and my work experience on my <router-link to="/">LinkedIn profile.</router-link>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container projects-section">
+    <div class="row">
+      
+    </div>
+  </div>
 </template>
 
 <style scoped>
-
   .portrait-info {
     height: 100%;
     display: flex;
@@ -64,6 +88,11 @@
     margin-top: 1rem;
   }
 
+  .portrait-info a {
+    text-decoration: none;
+    margin-bottom: 2em;
+  }
+
   .portrait-info .social-medias ul {
     display: flex;
     flex-flow: row wrap;
@@ -75,4 +104,22 @@
     list-style: none;
   }
 
+  .portrait-info .social-medias ul li a {
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .portrait-info .social-medias ul li img {
+    width: 2rem;
+    height: 2rem;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+  }
+
+  .portrait-info .social-medias ul li img:hover {
+    opacity: 0.5;
+  }
+
+  .about-section {
+    margin-block: 5rem;
+  }
 </style>
