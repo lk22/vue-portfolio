@@ -63,7 +63,7 @@
   </div>
   <div class="container projects-section">
     <div class="row">
-
+      
     </div>
   </div>
 </template>
@@ -91,6 +91,10 @@
   .portrait-info a {
     text-decoration: none;
     margin-bottom: 2em;
+  }
+
+  .portrait-info .email {
+    margin-bottom: 1rem;
   }
 
   .portrait-info .social-medias ul {
