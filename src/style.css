@@ -33,12 +33,27 @@
 
 a {
   color: var(--white);
+  text-decoration: none;
 }
 
 p {
   font-size: var(--font-base);
   color: var(--white);
-  line-height: 1.75;
+  line-height: 2;
+}
+
+button {
+  font-size: var(--font-base);
+  color: var(--white);
+  background-color: #151F2C;
+  border: 1px solid var(--white);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
 }
 
 h1,
@@ -50,7 +65,7 @@ h6 {
   background: linear-gradient(100deg, #F9F9F9 0%, #969DD8 100%);
   -webkit-background-clip: text;
   background-clip: text;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 h1 {
@@ -76,14 +91,23 @@ h6 {
   max-width: 1200px;
 }
 
+section, .section {
+  margin-block: 5rem;
+  padding-block: 5rem;
+}
+
 .container-fluid {
   max-width: 100%;
 }
 
-.container,
-.container-fluid {
-  margin: 0 auto;
-  padding: 0 1rem;
+section {
+  margin: 5rem auto;
+}
+
+.container:not(section),
+.container-fluid:not(section) {
+  margin: auto;
+  /* padding-inline: 1rem; */
 }
 
 .row {

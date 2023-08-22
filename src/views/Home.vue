@@ -1,9 +1,10 @@
 <script setup lang="ts">
   import { RouterLink } from 'vue-router'
+  import FeaturedProject from '../components/Projects/FeaturedProject.vue';
 </script>
 
 <template>
-  <div class="container">
+  <section class="container">
     <div class="row">
       <div class="col-6">
         <div class="image">
@@ -44,8 +45,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="container about-section">
+  </section>
+  <section class="container about-section">
     <div class="row">
       <div class="col-8">
         <div class="about-me">
@@ -60,12 +61,51 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="container projects-section">
+  </section>
+  <section class="container projects-section">
     <div class="row">
-      
+      <div class="col-12">
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="col-6">
+        <FeaturedProject 
+          title="Danish Xbox League"
+          description="Denmark's only E-sport Gaming association for XBOX gamers, their website is built in WordPress CMS with Elementor Page Builder, they have customized modules for handling their members and events with registration system."
+          image="/dxl-website.png"
+          :tags="['WordPress', 'Elementor']"
+          link="https://danishxboxleague.dk"
+          logo="/dxl-logo.png"
+        />
+      </div>
+      <div class="col-6">
+        <FeaturedProject 
+          title="Arsland Photography"
+          description="Small photography website / portfolio for a small photography company who works with both photography and picture editing,
+That operates all around Denmark."
+          image="/arslandphotography.png"
+          :tags="['WordPress', 'Elementor']"
+          link="https://arslandphoto.dk"
+          logo="/ap-logo.png"
+        />
+      </div>
+      <div class="col-12 go-to-archive">
+        <router-link to="/projects">
+          Go to project archive
+        </router-link>
+      </div>
     </div>
-  </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2>Let's get in touch</h2>
+      <h4>Looking for a freelancer for you’re new project, or just want to say hi, lets get in touch.</h4>
+      <button>
+        <router-link to="/contact">
+          Contact me
+        </router-link>
+      </button>
+    </div>
+  </section>
 </template>
 
 <style scoped>
@@ -94,7 +134,7 @@
   }
 
   .portrait-info .email {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .portrait-info .social-medias ul {
@@ -123,7 +163,7 @@
     opacity: 0.5;
   }
 
-  .about-section {
-    margin-block: 5rem;
+  .go-to-archive {
+    margin-top: 5rem;
   }
 </style>

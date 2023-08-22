@@ -29,13 +29,13 @@
       path: '/about'
     },
     {
+      name: 'Projects',
+      path: '/projects'
+    },
+    {
       name: 'Contact',
       path: '/contact'
     },
-    {
-      name: 'Projects',
-      path: '/projects'
-    }
   ]);
 </script>
 
@@ -48,7 +48,7 @@
 
   nav ul li {
     list-style: none;
-    margin-left: 1em;
+    margin-left: 2em;
   }
 
   nav ul li a {
