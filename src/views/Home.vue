@@ -14,9 +14,9 @@
       <div class="col-6">
         <div class="portrait-info">
           <h1 class="portrait-name">Leo Knudsen</h1>
-          <h2>
+          <p class="portrait-position">
             <span class="portrait-title">Frontend Developer at Webto ApS</span>
-          </h2>
+          </p>
           <div class="email">
             <a href="mailto: knudsenudvikling@gmail.com">knudsenudvikling@gmail.com</a>
           </div>
@@ -95,8 +95,7 @@ That operates all around Denmark."
       </div>
     </div>
   </section>
-  <section>
-    <div class="container">
+  <section class="container">
       <h2>Let's get in touch</h2>
       <h4>Looking for a freelancer for you’re new project, or just want to say hi, lets get in touch.</h4>
       <button>
@@ -104,8 +103,8 @@ That operates all around Denmark."
           Contact me
         </router-link>
       </button>
-    </div>
   </section>
+  
 </template>
 
 <style scoped>
@@ -122,6 +121,10 @@ That operates all around Denmark."
 
   .portrait-info h2 {
     margin-bottom: 1rem;
+  }
+
+  .portrait-position {
+    font-size: 28px;
   }
 
   .portrait-info .social-medias {

@@ -68,6 +68,7 @@
     padding: 2rem;
     min-height: 380px;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+    margin-bottom: 3rem;
   }
 
   .project-description {
