@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import FeaturedProject from '../components/Projects/FeaturedProject.vue';
+  import OtherProject from '../components/Projects/OtherProject.vue';
 </script>
 
 <template>
@@ -49,12 +50,71 @@ That operates all around Denmark."
           logo="/servicexperten.png"
         />
       </div>
+      <div class="row other-projects">
+        <h2>Other Projects</h2>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-2">
+              <span class="project-label">Year</span>
+            </div>
+            <div class="col-2">
+              <span class="project-label">Project name</span>
+            </div>
+            <div class="col-2">
+              <span class="project-label">Built at</span>
+            </div>
+            <div class="col-2">
+              <span class="project-label">Built with</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <OtherProject 
+            year="2023"
+            name="DXL Discord Bot"
+            location="-"
+            :technologies="['Express.js', 'Discord.js']"
+            link=""
+          />
+        </div>
+        <div class="col-12">
+          <OtherProject 
+            year="2022"
+            name="DocsBot"
+            location="-"
+            :technologies="['Discord.js']"
+            link=""
+          />
+        </div>
+      </div>
     </div>
+  </section>
+  <section class="container">
+      <h2>Let's get in touch</h2>
+      <h4>Looking for a freelancer for you’re new project, or just want to say hi, lets get in touch.</h4>
+      <button>
+        <router-link to="/contact">
+          Contact me
+        </router-link>
+      </button>
   </section>
 </template>
 
 <style scoped>
   h1 {
     margin-bottom: 3rem;
+  }
+
+  .row.other-projects {
+    margin-top: 2rem;
+  }
+
+  .row.other-projects .col-2 {
+    padding-inline: 0;
+  }
+
+  .project-label {
+    font-weight: bold;
+    color: #969DD8;
   }
 </style>

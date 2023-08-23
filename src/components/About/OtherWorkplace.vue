@@ -42,4 +42,8 @@
   .workplace-date {
     text-align: right;
   }
+
+  p {
+    font-weight: bold;
+  }
 </style>

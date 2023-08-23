@@ -63,8 +63,8 @@
     -webkit-border-radius: 20px;
     border-radius: 20px;
     background: #171f2b;
-    -webkit-box-shadow: 5px 5px 80px #000, -5px -5px 80px #000000;
-    box-shadow: 5px 5px 80px 10px rgba(0,0,0,0.25), -5px -5px 80px 10px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 5px 5px 10px 0px #000, -5px -5px 10px 0px #000000;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25), -5px -5px 10px 0px rgba(0,0,0,0.25);
     padding: 2rem;
     min-height: 380px;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;

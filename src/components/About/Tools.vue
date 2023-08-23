@@ -33,7 +33,7 @@ import { reactive } from 'vue'
       <nav>
         <ul>
           <li v-for="tool in toolList.toolList">
-            <span>{{ tool }}</span>
+            <span class="tool-item-text">{{ tool }}</span>
           </li>
         </ul>
       </nav>
@@ -96,5 +96,9 @@ import { reactive } from 'vue'
     left: 0px;
     top: 5px;
     border-radius: 100px;
+  }
+
+  .tool-item-text {
+    font-weight: bold;
   }
 </style>

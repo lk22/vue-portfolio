@@ -31,6 +31,10 @@
     width: 100%;
   }
 
+  span:nth-child(2) {
+    font-weight: bold;
+  }
+
   .row {
     align-items: center;
   }
