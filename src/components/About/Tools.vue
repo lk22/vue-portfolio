@@ -68,7 +68,7 @@ import { reactive } from 'vue'
     position: absolute;
     left: -180px;
     top: -250px;
-    background-image: url(/public/purple_graphic.png);
+    background-image: url(/purple_graphic.png);
     height: 630px;
     width: 650px;
     background-repeat: no-repeat;
