@@ -72,7 +72,7 @@
           title="Danish Xbox League"
           description="Denmark's only E-sport Gaming association for XBOX gamers, their website is built in WordPress CMS with Elementor Page Builder, they have customized modules for handling their members and events with registration system."
           image="/dxl-website.png"
-          :tags="['WordPress', 'Elementor']"
+          :tags="['WordPress', 'Elementor', 'PHP']"
           link="https://danishxboxleague.dk"
           logo="/dxl-logo.png"
         />
@@ -83,7 +83,7 @@
           description="Small photography website / portfolio for a small photography company who works with both photography and picture editing,
 That operates all around Denmark."
           image="/arslandphotography.png"
-          :tags="['WordPress', 'Elementor']"
+          :tags="['WordPress', 'Elementor', 'PHP']"
           link="https://arslandphoto.dk"
           logo="/ap-logo.png"
         />

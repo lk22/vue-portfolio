@@ -74,7 +74,7 @@ That operates all around Denmark."
             name="DXL Discord Bot"
             location="-"
             :technologies="['Express.js', 'Discord.js']"
-            link=""
+            link="https://github.com/lk22/dxl-discord-bot"
           />
         </div>
         <div class="col-12">
@@ -83,7 +83,7 @@ That operates all around Denmark."
             name="DocsBot"
             location="-"
             :technologies="['Discord.js']"
-            link=""
+            link="https://github.com/lk22/discord-docs-bot"
           />
         </div>
       </div>
