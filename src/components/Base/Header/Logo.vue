@@ -1,5 +1,5 @@
 <template>
-  <div class="col-6">
+  <div class="logo">
     <router-link to="/">
       <img src="/logo.svg" alt="Logo" />
     </router-link>
@@ -9,3 +9,16 @@
 <script setup lang="ts">
   import {RouterLink} from 'vue-router'
 </script>
+
+<style scoped>
+.logo img {
+  height: 2rem;
+}
+
+@media (min-width: 576px) {
+  .logo {
+    width: auto;
+  }
+}
+
+</style>

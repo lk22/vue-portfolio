@@ -106,6 +106,10 @@ when I worked as a Software & Test Engineer at Athliit ApS which is now Sportyfr
     padding-block: 5rem;
   }
 
+  .about-image img {
+    width: 50%;
+  }
+
   .other-workplaces {
     margin-top: 2rem;
   }

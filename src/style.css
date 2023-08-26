@@ -24,6 +24,8 @@
   --font-heading-four: 20px;
   --font-heading-five: var(--font-base);
   --font-heading-small: 14px;
+
+
 }
 
 * {
@@ -91,8 +93,9 @@ h6 {
   font-size: var(--font-heading-small);
 }
 
-.container {
-  max-width: 1200px;
+img {
+  width: 100%;
+  height: auto;
 }
 
 section, .section {
@@ -198,6 +201,50 @@ section {
   padding: 0 0.5rem;
 }
 
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+    padding-inline: 20px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  [class*="col-"] {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

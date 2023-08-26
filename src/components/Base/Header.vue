@@ -27,5 +27,6 @@
 
   .row {
     align-items: center;
+    justify-content: space-between;
   }
 </style>

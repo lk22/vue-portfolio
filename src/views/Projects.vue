@@ -20,7 +20,7 @@
         />
       </div>
       <div class="col-6">
-        <FeaturedProject 
+        <!-- <FeaturedProject 
           title="Arsland Photography"
           description="Small photography website / portfolio for a small photography company who works with both photography and picture editing,
 That operates all around Denmark."
@@ -28,9 +28,7 @@ That operates all around Denmark."
           :tags="['WordPress', 'Elementor']"
           link="https://arslandphoto.dk"
           logo="/ap-logo.png"
-        />
-      </div>
-      <div class="col-6">
+        /> -->
         <FeaturedProject 
           title="VinduespudserXperten"
           description="Website design project for a danish window cleaning company,  maintaining their custom made CRM system"
@@ -50,6 +48,8 @@ That operates all around Denmark."
           logo="/servicexperten.png"
         />
       </div>
+      <!-- <div class="col-6">
+      </div> -->
       <div class="row other-projects">
         <h2>Other Projects</h2>
         <div class="col-12">

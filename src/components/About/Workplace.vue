@@ -12,12 +12,10 @@
 <template>
   <div class="workplace">
     <div class="row">
-      <div class="col-6">
+      <div class="workplace-header">
         <div class="workplace-title">
           <h3>{{ workplace.title }}</h3>
         </div>
-      </div>
-      <div class="col-6">
         <div class="workplace-logo">
           <img :src="workplace.logo" alt="company logo">
         </div>
@@ -44,6 +42,13 @@
     padding: 0;
   }
 
+  .workplace-header {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    padding-right: 2rem;
+  }
+
   .workplace-position,
   .workplace-title h3,
   .workplace-date {
@@ -52,5 +57,9 @@
   .workplace-description {
     margin-block: 1rem 2rem;
     padding-inline: 0rem 5rem;
+  }
+
+  img {
+    width: auto;
   }
 </style>

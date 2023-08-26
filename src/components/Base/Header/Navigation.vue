@@ -20,7 +20,7 @@
 </script>
 
 <template>
-  <div class="col-6">
+  <div class="navigation">
     <nav>
       <ul>
         <li v-for="link in links" :key="link.name">
@@ -30,7 +30,6 @@
     </nav>
   </div>
 </template>
-
 
 <style scoped>
   nav ul {
@@ -47,4 +46,11 @@
     text-decoration: none;
     color: #f9f9f9;
   }
+
+  @media (min-width: 576px) {
+    .navigation {
+      width: 50%;
+    }
+  }
+
 </style>
