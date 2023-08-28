@@ -21,12 +21,12 @@
           <p>{{ project.name }}</p>
         </div>
       </div>
-      <div class="col-2">
+      <div class="col-3">
         <div class="project-location">
           <p>{{ project.location }}</p>
         </div>
       </div>
-      <div class="col-2">
+      <div class="col-3">
         <div class="project-technologies">
           <ul>
             <li v-for="technology in project.technologies" :key="technology">
@@ -35,7 +35,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-2">
         <div class="project-link">
           <a :href="project.link" target="_blank">Link</a>
         </div>
@@ -62,6 +62,10 @@
     list-style: none;
   }
 
+  p {
+    font-size: 13px;
+  }
+
   .project [class*="col-"] {
     padding-inline: 0;
   }
@@ -73,5 +77,6 @@
   .project-link a {
     text-decoration: none;
     color: #f9f9f9;
+    font-size: 13px;
   }
 </style>

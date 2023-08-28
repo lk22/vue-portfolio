@@ -60,10 +60,10 @@ That operates all around Denmark."
             <div class="col-2">
               <span class="project-label">Project name</span>
             </div>
-            <div class="col-2">
+            <div class="col-3">
               <span class="project-label">Built at</span>
             </div>
-            <div class="col-2">
+            <div class="col-3">
               <span class="project-label">Built with</span>
             </div>
           </div>
@@ -75,6 +75,15 @@ That operates all around Denmark."
             location="-"
             :technologies="['Express.js', 'Discord.js']"
             link="https://github.com/lk22/dxl-discord-bot"
+          />
+        </div>
+        <div class="col-12">
+          <OtherProject 
+            year="2023"
+            name="Vue.js Component Generator"
+            location="-"
+            :technologies="['clack.js', 'Picocolors']"
+            link="https://github.com/lk22/vue-component-generator"
           />
         </div>
         <div class="col-12">
