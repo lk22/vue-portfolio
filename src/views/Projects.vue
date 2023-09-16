@@ -48,6 +48,16 @@ That operates all around Denmark."
           logo="/servicexperten.png"
         />
       </div>
+      <div class="col-6">
+        <FeaturedProject 
+          title="Leo Knudsen Portfolio v2"
+          description="Portfolio page to show off my projects and skills, built with Vue.js"
+          image="/portfolio-leo-knudsen.png"
+          :tags="['Vue.js']"
+          link="https://leoknudsen.dk"
+          logo="/logo.svg"
+        />
+      </div>
       <!-- <div class="col-6">
       </div> -->
       <div class="row other-projects">
@@ -97,15 +107,6 @@ That operates all around Denmark."
         </div>
       </div>
     </div>
-  </section>
-  <section class="container">
-      <h2>Let's get in touch</h2>
-      <h4>Looking for a freelancer for you’re new project, or just want to say hi, lets get in touch.</h4>
-      <button>
-        <router-link to="/contact">
-          Contact me
-        </router-link>
-      </button>
   </section>
 </template>
 

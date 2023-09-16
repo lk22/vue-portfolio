@@ -37,7 +37,7 @@
       </div>
       <div class="col-2">
         <div class="project-link">
-          <a :href="project.link" target="_blank">Link</a>
+          <a href="project.link" target="_blank">Link</a>
         </div>
       </div>
     </div>

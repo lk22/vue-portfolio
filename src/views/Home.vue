@@ -78,15 +78,6 @@ That operates all around Denmark."
       </div>
     </div>
   </section>
-  <section class="container">
-      <h2>Let's get in touch</h2>
-      <h4>Looking for a freelancer for you’re new project, or just want to say hi, lets get in touch.</h4>
-      <button>
-        <router-link to="/contact">
-          Contact me
-        </router-link>
-      </button>
-  </section>
   
 </template>
 

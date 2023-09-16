@@ -44,4 +44,11 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  @media (max-width: 991px) {
+    .col-12 {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
 </style>
