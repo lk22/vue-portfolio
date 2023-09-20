@@ -6,7 +6,9 @@
     'image', 
     'tags', 
     'link',
-    'logo'
+    'logo',
+    'position',
+    'workplace'
   ]);
 
 </script>
@@ -27,10 +29,18 @@
             </li>
           </ul>
         </div>
+        <div class="project-position" v-if="project.position">
+          <span class="project-label">Position: </span>
+          <span><strong>{{ project.position }}</strong></span>
+        </div>
+        <div class="project-workplace" v-if="project.workplace">
+          <span class="project-label">Workplace: </span>
+          <span><strong>{{ project.workplace }}</strong></span>
+        </div>
         <div class="project-link">
           <a :href="project.link" target="_blank">Visit project</a>
         </div>
-        <div class="project-logo">
+        <div class="project-logo" v-if="project.logo">
           <img :src="project.logo" alt="Project logo">  
         </div>
       </div>
@@ -66,7 +76,7 @@
     -webkit-box-shadow: 5px 5px 10px 0px #000, -5px -5px 10px 0px #000000;
     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25), -5px -5px 10px 0px rgba(0,0,0,0.25);
     padding: 2rem;
-    min-height: 380px;
+    min-height: 450px;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
     margin-bottom: 3rem;
   }
